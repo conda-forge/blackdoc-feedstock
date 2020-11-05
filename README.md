@@ -5,11 +5,9 @@ Home: https://github.com/keewis/blackdoc
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/blackdoc-feedstock/blob/master/LICENSE.txt)
 
 Summary: run black on documentation code snippets
-
-
 
 Current build status
 ====================
