@@ -29,6 +29,7 @@ requirements:
     - importlib-metadata
     - more-itertools
     - python >=3.6
+    - toml
 
 test:
   imports:
