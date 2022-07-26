@@ -23,13 +23,13 @@ requirements:
     - python >=3.6
     - setuptools >=42
     - setuptools_scm >=3.4
-    - toml
+    - tomli
   run:
     - black
     - importlib-metadata
     - more-itertools
     - python >=3.6
-    - toml
+    - tomli
 
 test:
   imports:
