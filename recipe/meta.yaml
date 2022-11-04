@@ -39,7 +39,7 @@ test:
   commands:
     - pip check
     - blackdoc --help
-    - python -c 'from blackdoc import __version__; assert __version__ != "0.0.0"'
+    - python -c 'from blackdoc import __version__; assert __version__ == "{{ version }}"'
   requires:
     - pip
 
