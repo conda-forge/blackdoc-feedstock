@@ -30,6 +30,7 @@ requirements:
     - more-itertools
     - python >=3.6
     - tomli
+    - rich
 
 test:
   imports:
