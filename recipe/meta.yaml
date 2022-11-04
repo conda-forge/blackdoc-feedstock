@@ -20,7 +20,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools >=42
     - setuptools_scm >=3.4
     - tomli
@@ -28,7 +28,7 @@ requirements:
     - black
     - importlib-metadata
     - more-itertools
-    - python >=3.6
+    - python >=3.7
     - tomli
     - rich
 
