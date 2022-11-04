@@ -15,7 +15,7 @@ build:
   noarch: python
   entry_points:
     - blackdoc=blackdoc.__main__:main
-  script: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }} {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
