@@ -20,14 +20,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools >=42
     - setuptools_scm >=3.4
     - tomli
   run:
     - black
     - more-itertools
-    - python >=3.7
+    - python >=3.8
     - tomli
     - rich
 
