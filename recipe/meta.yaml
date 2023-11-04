@@ -26,7 +26,6 @@ requirements:
     - tomli
   run:
     - black
-    - importlib-metadata
     - more-itertools
     - python >=3.7
     - tomli
