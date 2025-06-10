@@ -1,6 +1,6 @@
 {% set name = "blackdoc" %}
-{% set version = "0.3.9" %}
-
+{% set version = "0.3.10" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b1da5ca93550081fc3f1b34bfdc731431ee74c378ea63abb31771a222ef5d053
+  sha256: 3c240d96f919581c6b771d512c8c543e1eb07fa84bca10179ffa8f1dba8dea09
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - blackdoc=blackdoc.__main__:main
@@ -21,8 +21,8 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools >=42
-    - setuptools_scm >=3.4
+    - setuptools >=61
+    - setuptools_scm >=7.0
     - tomli
   run:
     - black
