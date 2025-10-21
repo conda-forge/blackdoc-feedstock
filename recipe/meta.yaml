@@ -1,5 +1,5 @@
 {% set name = "blackdoc" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 72e25f8652e7da7b5141cf3c977f61c5b38f8956a3cb38519af120d3c82f117d
+  sha256: 9da6a59f2005e1fbbe6ac651c3f283a398dada67e11e8c573be33dca789d8cfa
 
 build:
   number: 0
