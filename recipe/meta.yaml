@@ -25,7 +25,7 @@ requirements:
     - setuptools_scm >=7.0
     - tomli
   run:
-    - black>=24.4
+    - black >=24.4
     - more-itertools
     - python >={{ python_min }}
     - tomli
